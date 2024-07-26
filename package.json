@@ -13,6 +13,8 @@
   "dependencies": {
     "@heroicons/react": "^1.0.5",
     "@noble/ed25519": "^1.7.1",
+    "@raydium-io/raydium-sdk-v2": "^0.1.46-alpha",
+    "@solana/spl-token": "^0.4.8",
     "@solana/wallet-adapter-base": "^0.9.22",
     "@solana/wallet-adapter-react": "^0.15.32",
     "@solana/wallet-adapter-react-ui": "^0.9.31",

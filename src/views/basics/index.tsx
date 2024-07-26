@@ -1,6 +1,6 @@
-
 import { FC } from "react";
 import { SignMessage } from '../../components/SignMessage';
+import BuyButton from '../../components/BuyButton';
 import { SendTransaction } from '../../components/SendTransaction';
 import { SendVersionedTransaction } from '../../components/SendVersionedTransaction';
 
@@ -17,6 +17,8 @@ export const BasicsView: FC = ({ }) => {
           <SignMessage />
           <SendTransaction />
           <SendVersionedTransaction />
+          {/* Add BuyButton here */}
+          <BuyButton />
         </div>
       </div>
     </div>

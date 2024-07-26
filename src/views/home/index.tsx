@@ -1,4 +1,5 @@
 // Next, React
+import React from 'react';
 import { FC, useEffect, useState } from 'react';
 import Link from 'next/link';
 
